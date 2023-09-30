@@ -1,0 +1,7 @@
+/* Style the h1 for Python curriculum */
+h1.python-title {
+    font-size: 36px; /* Adjust the font size */
+    color: #357ABD; /* Adjust the text color (e.g., blue) */
+    text-align: center;
+    margin-top: 20px;
+}
