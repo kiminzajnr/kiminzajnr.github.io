@@ -35,6 +35,7 @@ h1.javascript-title {
     font-size: 18px;
     line-height: 1.6;
     margin: 20px 0;
+    padding-left: 40px;
 }
 
 /* Style for the lesson title (h1) */
@@ -61,4 +62,11 @@ h1.javascript-title {
     display: block;
     white-space: pre-wrap;
     margin: 10px 0;
+}
+/* Copyright Section Styles */
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 20px;
 }

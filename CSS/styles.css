@@ -79,7 +79,15 @@ form {
 
 /* Style the dropdown when it's focused (clicked) */
 #trackDropdown:focus {
-    outline: none; /* Remove the focus outline */
-    border-color: #007BFF; /* Change border color when focused */
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow */
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Copyright Section Styles */
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 20px;
 }

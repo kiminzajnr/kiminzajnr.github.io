@@ -4,9 +4,763 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Python Curriculum</title>
-    <link rel="stylesheet" type="text/css" href="CSS/python_curriculum.css">
+    <link rel="stylesheet" type="text/css" href="CSS/javascript_curriculum.css">
 </head>
 <body>
-    <h1 class="python-title">Python Curriculum</h1>
+    <h1 class="javascript-title">Python Curriculum</h1>
+    <div class="lesson-buttons-container">
+        <button class="lesson-button">Lesson 1</button>
+        <button class="lesson-button">Lesson 2</button>
+        <button class="lesson-button">Lesson 3</button>
+        <button class="lesson-button">Lesson 4</button>
+        <button class="lesson-button">Lesson 5</button>
+        <button class="lesson-button">Lesson 6</button>
+        <button class="lesson-button">Lesson 7</button>
+        <button class="lesson-button">Lesson 8</button>
+        <button class="lesson-button">Lesson 9</button>
+        <button class="lesson-button">Lesson 10</button>
+        <button class="lesson-button">Lesson 11</button>
+        <button class="lesson-button">Lesson 12</button>
+        <button class="lesson-button">Lesson 13</button>
+        <button class="lesson-button">Lesson 14</button>
+        <button class="lesson-button">Lesson 15</button>
+        <button class="lesson-button">Lesson 16</button>
+        <button class="lesson-button">Lesson 17</button>
+        <button class="lesson-button">Lesson 18</button>
+        <button class="lesson-button">Lesson 19</button>
+        <button class="lesson-button">Lesson 20</button>
+        <!-- <button class="lesson-button">Lesson 21</button>
+        <button class="lesson-button">Lesson 22</button>
+        <button class="lesson-button">Lesson 23</button>
+        <button class="lesson-button">Lesson 24</button>
+        <button class="lesson-button">Lesson 25</button>
+        <button class="lesson-button">Lesson 26</button>
+        <button class="lesson-button">Lesson 27</button>
+        <button class="lesson-button">Lesson 28</button>
+        <button class="lesson-button">Lesson 29</button>
+        <button class="lesson-button">Lesson 30</button> -->
+    </div>
+        <div class="lesson-content" id="lesson-1-content">
+            <h2>Lesson 1: Introduction to Python</h2>
+        
+            <h3>What is Python?</h3>
+            <p>Python is a programming language that allows you to communicate with the computer. It's a fun and creative way to make the computer perform various tasks. Think of Python as the language your computer understands.</p>
+            <p>Imagine you have a robot, and you want it to do something. Python is like the language you use to give instructions to your robot.</p>
+            <p>Let's explore Python further with examples and stories for a better understanding.</p>
+        
+            <h3>2. Setting up Your Python Environment</h3>
+            <p>Before we start writing Python code, we need the right tools. We'll use an Integrated Development Environment (IDE) or an online code editor to write and run Python programs.</p>
+            <p>An IDE is like a digital workspace where you write, edit, and run your code. Some popular Python IDEs include Visual Studio Code (VS Code) and PyCharm. We'll learn how to set up and use them.</p>
+            <p>Let's start by opening and closing our Python IDE.</p>
+        
+            <h3>3. Writing Your First Program: Hello, World</h3>
+            <p>Now that we're set up, let's write our first Python program: <code>print("Hello, World")</code>. This program will make the computer say "Hello, World" on the screen.</p>
+            <p>Save the file as <code>hello.py</code> and run it using the command <code>python hello.py</code>. You'll see the message "Hello, World" displayed on the screen. Congratulations! You've just written and executed your first Python program.</p>
+            <p>You can also use the Python interpreter to execute code. Simply type <code>print("Hello, World")</code> and hit enter to see the same output.</p>
+        
+            <h3>Some Basic Coding Terms</h3>
+            <ul>
+                <li><strong>Code:</strong> The instructions you give to the computer.</li>
+                <li><strong>print:</strong> A command to make the computer write something.</li>
+                <li><strong>program:</strong> A set of instructions for the computer.</li>
+            </ul>
+        
+            <h3>Activity</h3>
+            <p>Let's say "hello" to Python by writing and running your own "Hello, Python" program. Experiment with different print statements and see what happens.</p>
+        </div>
+
+        <div class="lesson-content" id="lesson-2-content">
+            <h2>Lesson 2: Doing Math with Python - Basic Operations</h2>
+        
+            <h3>Doing Math with Python</h3>
+            <p>Python is not just a language for talking to the computer; it's also great at solving math problems. Let's explore some basic math operations you can do with Python:</p>
+            <ul>
+                <li><strong>Addition (+):</strong> You can use Python to add numbers together, just like you would on paper.</li>
+                <li><strong>Subtraction (-):</strong> Python can help you subtract one number from another.</li>
+                <li><strong>Multiplication (*):</strong> Want to multiply numbers? Python can do that too!</li>
+                <li><strong>Division (/):</strong> When you need to divide numbers, Python is here to help.</li>
+            </ul>
+        
+            <h3>Activity</h3>
+            <p>Let's have some fun with math! We'll start by collecting your favorite numbers. Then, we'll use Python to perform various operations with these numbers.</p>
+            <p>Here's what we'll do:</p>
+            <ul>
+                <li>Get favorite numbers from different kids.</li>
+                <li>Try some math problems using Python.</li>
+                <li>Show how Python can perform operations with your numbers, like doubling or adding them.</li>
+                <li>Play around with "magic" numbers in Python.</li>
+                <li>Let's take inputs from your friends with their favorite numbers and perform operations.</li>
+                <li>Each of you will create a Python program that calculates your age in the future.</li>
+                <li>We'll explore more fun examples together!</li>
+            </ul>
+        
+            <p>Get ready to have some mathematical fun with Python!</p>
+        </div>
+
+        <div class="lesson-content" id="lesson-3-content">
+            <h2>Lesson 3: Variables and Data Types</h2>
+        
+            <h3>Variables</h3>
+            <p>Imagine a variable like a box - a container that can hold different things. In the world of programming, variables are like these containers that store different types of data.</p>
+            <p>Let's take a look at some examples:</p>
+            <ul>
+                <li><strong>age = 10:</strong> Here, the variable "age" holds the number 10.</li>
+                <li><strong>name = "Felix":</strong> The variable "name" stores the text "Felix."</li>
+                <li><strong>pi = 3.142:</strong> "pi" is a variable that holds the decimal number 3.142.</li>
+            </ul>
+        
+            <h3>Data Types</h3>
+            <p>Variables can store different types of data, just like boxes can hold various things. In programming, we commonly work with these data types:</p>
+            <ul>
+                <li><strong>Integer:</strong> Represents whole numbers, like 5.</li>
+                <li><strong>String:</strong> Represents text, such as "Hello, World."</li>
+                <li><strong>Float:</strong> Represents decimal numbers, for example, pi = 3.142.</li>
+                <li><strong>List:</strong> A collection of items.</li>
+            </ul>
+        
+            <h3>Activity</h3>
+            <p>Now, let's have some hands-on practice:</p>
+            <ul>
+                <li>Create variables of each data type (integer, string, float).</li>
+                <li>Print these variables to see what's inside.</li>
+                <li>Show how you can change the values of these variables.</li>
+                <li>Let's create a simple "word game" where we change a variable and print the result, like changing a character in a word.</li>
+            </ul>
+        
+            <p>Get ready to explore the world of variables and data types!</p>
+        </div>
+
+        <div class="lesson-content" id="lesson-4-content">
+            <h2>Lesson 4: Logical Conditions and Conditional Statements</h2>
+        
+            <h3>Logical Conditions</h3>
+            <p>Let's dive into logical conditions, which are like mathematical operations to compare values:</p>
+            <ul>
+                <li><strong>Equals:</strong> a == b</li>
+                <li><strong>Not Equals:</strong> a != b</li>
+                <li><strong>Less Than:</strong> a < b</li>
+                <li><strong>Less Than or Equal To:</strong> a <= b</li>
+                <li><strong>Greater Than:</strong> a > b</li>
+                <li><strong>Greater Than or Equal To:</strong> a >= b</li>
+            </ul>
+        
+            <h3>Conditional Statements: if Statements</h3>
+            <p>In Python, we use logical conditions to make decisions using <code>if</code> statements. These statements help the computer decide what to do based on certain conditions:</p>
+            <pre><code>
+            age = 12
+            if age < 18:
+                print("You are a kid")
+            </code></pre>
+        
+            <h3>else Statement</h3>
+            <p>We can also include an <code>else</code> statement to provide an alternative action:</p>
+            <pre><code>
+            age = 12
+            if age < 18:
+                print("You are a kid")
+            else:
+                print("You are an adult")
+            </code></pre>
+        
+            <h3>elif Statement</h3>
+            <p>And for more complex decisions, we can use <code>elif</code> (short for "else if") to test multiple conditions:</p>
+            <pre><code>
+            age = 12
+            if age < 18:
+                print("You are a kid")
+            elif age == 17:
+                print("You are almost becoming an adult")
+            else:
+                print("You are an adult")
+            </code></pre>
+        
+            <h3>Activity</h3>
+            <p>Now, it's your turn! Use <code>if</code> statements to make different decisions and explore the world of logical conditions.</p>
+        </div>
+
+        <div class="lesson-content" id="lesson-5-content">
+        <h2>Lesson 5: Loops - <strong>for</strong> and <strong>while</strong></h2>
+
+        <h3><strong>for</strong> Loop</h3>
+        <p>The <strong>for</strong> loop allows us to repeat actions a certain number of times or iterate through a collection of items. Here are some examples:</p>
+        <pre><code>
+        friend = "Joe"
+        for i in range(10):
+            print("Hello,", friend)
+        </code></pre>
+        <pre><code>
+        friends = ["Alice", "Joe", "Alex"]
+        for friend in friends:
+            print(friend)
+        </code></pre>
+
+        <h4><code>continue</code></h4>
+        <p>The <code>continue</code> statement allows you to skip the current iteration and continue with the next one:</p>
+        <pre><code>
+        friends = ["Alice", "Joe", "Alex"]
+        for friend in friends:
+            if friend == "Joe":
+                continue
+            print(friend)
+        </code></pre>
+
+        <h4><code>break</code></h4>
+        <p>The <code>break</code> statement is used to stop the loop prematurely:</p>
+        <pre><code>
+        friends = ["Alice", "Joe", "Alex"]
+        for friend in friends:
+            if friend == "Joe":
+                break
+            print(friend)
+        </code></pre>
+
+        <h3><code>while</code> Loop</h3>
+        <p>The <code>while</code> loop keeps going until a certain condition is no longer true:</p>
+        <pre><code>
+        count = 0
+        while count < 5:
+            print(count)
+            count += 1
+        </code></pre>
+
+        <h3>Activity</h3>
+        <p>Now, it's your turn! Create a <code>while</code> loop with your own condition and action.</p>
+
+        <h3>Mini Project</h3>
+        <p>It's time for a mini project! Use all the concepts we've covered so far to build something practical.</p>
+    </div>
+
+    <div class="lesson-content" id="lesson-6-content">
+        <h2>Lesson 6: Functions and Modularization</h2>
+    
+        <h3>Defining and Calling Functions</h3>
+        <p>In Python, functions are like mini-programs within your program. They allow you to group a set of instructions together and give that group a name. Here's how you define and call functions:</p>
+        <pre><code>
+        def greet(name):
+            print("Hello, " + name + "!")
+        greet("Doe")
+        </code></pre>
+    
+        <h3>Parameters and Arguments</h3>
+        <p>Functions can accept parameters (also called arguments). These parameters are like placeholders that you can fill in when you call the function. Let's break it down:</p>
+        <pre><code>
+        def greet(name):
+            print("Hello, " + name + "!")
+        greet("Doe")
+        </code></pre>
+    
+        <h3>Activity</h3>
+        <p>Now it's your turn! Define a function that takes a parameter and prints something based on that parameter. Then, call your function with different arguments to see how it works.</p>
+    </div>
+
+    <div class="lesson-content" id="lesson-7-content">
+        <h2>Lesson 7: Functions with Return Values</h2>
+    
+        <h3>Exploring Functions that Return Values</h3>
+        <p>In Python, functions can not only perform actions but also return values. This means they can give you back some data after performing an operation. Let's see how it works:</p>
+        <pre><code>
+        def add(a, b):
+            return a + b
+        result = add(3, 5)
+        print(result)
+        </code></pre>
+    
+        <h3>Activity</h3>
+        <p>Now it's time to practice! Create a simple calculator using functions. Define functions for addition, subtraction, multiplication, and division. Allow the user to choose an operation and input two numbers, then display the result.</p>
+    
+        <h3>Exercise</h3>
+        <p>Challenge yourself by building a program that calculates and returns the area of different shapes based on user input. You can create functions for each shape, such as a rectangle or a circle, and ask the user for the necessary information.</p>
+    </div>
+
+    <div class="lesson-content" id="lesson-8-content">
+        <h2>Lesson 8: Introduction to Lists</h2>
+    
+        <h3>What is a List?</h3>
+        <p>In Python, a list is a collection of items that can hold different types of data, such as numbers, strings, or even other lists. Think of it as a container that allows you to organize and manage multiple pieces of information.</p>
+    
+        <h3>Creating and Manipulating Lists</h3>
+        <p>Let's see how we can create and work with lists in Python:</p>
+        <pre><code>
+        fruits = ["banana", "mango", "pawpaw"]
+        print(fruits[0])  # Accessing the first item in the list
+        </code></pre>
+    
+        <p>In the above example, we have created a list called "fruits" containing three items. We can access individual items in the list by using their index, where the index starts at 0 for the first item.</p>
+    
+        <h3>Activity</h3>
+        <p>Now it's your turn to practice! Create a list of your favorite fruits and print out one of them using its index. You can also try adding more fruits to the list or removing one.</p>
+    </div>
+
+    <div class="lesson-content" id="lesson-9-content">
+        <h2>Lesson 9: List Operations</h2>
+    
+        <h3>Appending, Removing, and Accessing Elements</h3>
+        <p>In Python, you can perform various operations on lists, such as adding new elements, removing existing ones, and accessing elements using their indices. Let's explore these operations:</p>
+    
+        <pre><code>
+        numbers = [1, 2, 3]
+        
+        # Appending elements to the list
+        numbers.append(4)
+        
+        # Removing elements from the list
+        numbers.remove(2)
+        
+        # Accessing elements in the list
+        for number in numbers:
+            print(number)
+        </code></pre>
+    
+        <p>In the code above, we start with a list called "numbers" containing elements 1, 2, and 3. We use the <code>append()</code> method to add the number 4 to the end of the list. Then, we use the <code>remove()</code> method to remove the number 2 from the list. Finally, we iterate through the list using a <code>for</code> loop and print each element.</p>
+    
+        <h3>Activity</h3>
+        <p>Practice these list operations by creating your own list of numbers. Try adding, removing, and accessing elements in your list. See what happens when you iterate through it with a loop.</p>
+    </div>
+
+    <div class="lesson-content" id="lesson-10-content">
+        <h2>Lesson 10: Lists and Functions</h2>
+    
+        <h3>Using Lists in Functions</h3>
+        <p>In Python, you can use lists as arguments in functions to perform various operations. Let's explore how to use lists in functions with an example:</p>
+    
+        <pre><code>
+        def average(numbers):
+            total = sum(numbers)
+            return total / len(numbers)
+    
+        grades = [80, 95, 88, 76, 90]
+        average_grade = average(grades)
+        
+        print("Average grade:", average_grade)
+        </code></pre>
+    
+        <p>In the code above, we define a function called <code>average</code> that takes a list of numbers as its argument. Inside the function, we calculate the total sum of the numbers using the <code>sum()</code> function and then divide it by the length of the list to compute the average. Finally, we call the <code>average</code> function with the <code>grades</code> list and store the result in <code>average_grade</code>.</p>
+    
+        <p>The average grade is then printed to the screen.</p>
+    
+        <h3>Activity</h3>
+        <p>Practice using lists in functions by creating your own function that performs an operation on a list of numbers. You can try calculating the sum, finding the maximum, or any other operation of your choice.</p>
+    </div>
+
+    <div class="lesson-content" id="lesson-11-content">
+        <h2>Lesson 11: Accepting User Input</h2>
+    
+        <h3>Taking Input from Users</h3>
+        <p>In Python, you can create interactive programs by taking input from users. This allows your program to respond to user actions and personalize its behavior. Let's learn how to take user input with an example:</p>
+    
+        <pre><code>
+        name = input("What is your name? ")
+        print("Hello, " + name + "!")
+        </code></pre>
+    
+        <p>In the code above, we use the <code>input()</code> function to prompt the user with the question, "What is your name?" The user's input is then stored in the <code>name</code> variable. Finally, we use the <code>print()</code> function to display a personalized greeting using the user's input.</p>
+    
+        <p>Running this program will allow the user to type their name, and the program will respond with a friendly greeting.</p>
+    
+        <h3>Activity</h3>
+        <p>Experiment with taking different types of input from users and using their input to create personalized messages or perform specific tasks in your programs.</p>
+    </div>
+
+    <div class="lesson-content" id="lesson-12-content">
+        <h2>Lesson 12: Output and Formatting</h2>
+    
+        <h3>Formatting and Displaying Output</h3>
+        <p>When working with Python, it's important to format and display your program's output in a clear and readable way. Proper formatting makes it easier for users to understand the information your program provides.</p>
+    
+        <p>You can format and display output by using the <code>print()</code> function and combining it with variables and text. Here's an example:</p>
+    
+        <pre><code>
+        age = 12
+        print("I am", age, "years old.")
+        </code></pre>
+    
+        <p>In the code above, we use the <code>print()</code> function to display the message "I am" followed by the value of the <code>age</code> variable and the text "years old." By using commas to separate the elements, Python will automatically insert spaces between them, creating a neatly formatted output.</p>
+    
+        <h3>Activity</h3>
+        <p>Experiment with different ways of formatting and displaying output in your Python programs. You can combine variables, text, and even perform calculations within the <code>print()</code> function to create informative and well-structured output.</p>
+    </div>
+
+    <div class="lesson-content" id="lesson-13-content">
+        <h2>Lesson 13: Mini Project with Input and Output</h2>
+    
+        <h3>Create a Simple Quiz Game</h3>
+        <p>In this lesson, we'll work on a mini project that combines input and output in a fun and interactive way. We'll create a simple quiz game where the user answers questions and receives feedback.</p>
+    
+        <h3>Project Instructions</h3>
+        <p>Follow these steps to create your quiz game:</p>
+    
+        <ol>
+            <li>Define a list of quiz questions. Each question should have a corresponding correct answer.</li>
+            <li>Use a loop to iterate through the questions and present them to the user one by one.</li>
+            <li>Take input from the user for their answer.</li>
+            <li>Check if the user's answer matches the correct answer for that question.</li>
+            <li>Provide feedback to the user based on whether their answer was correct or not.</li>
+            <li>Keep track of the user's score and display it at the end of the quiz.</li>
+        </ol>
+    
+        <h3>Example Code</h3>
+        <p>Here's a simplified example of how you can structure your quiz game:</p>
+            <Code>Code will be displayed here</Code>
+        <pre><code>
+        <!-- # Define quiz questions and answers
+        questions = [
+            {"question": "What is the capital of France?", "answer": "Paris"},
+            {"question": "Which planet is known as the Red Planet?", "answer": "Mars"},
+            {"question": "What is the largest mammal in the world?", "answer": "Blue whale"},
+        ]
+    
+        # Initialize user's score
+        score = 0
+    
+        # Loop through questions
+        for question_data in questions:
+            question = question_data["question"]
+            correct_answer = question_data["answer"]
+    
+            # Display the question and get user's answer
+            user_answer = input(question + " ")
+            
+            # Check if the user's answer is correct
+            if user_answer.lower() == correct_answer.lower():
+                print("Correct!")
+                score += 1
+            else:
+                print("Incorrect. The correct answer is:", correct_answer)
+    
+        # Display the final score
+        print("Your score:", score, "out of", len(questions))
+        </code></pre> -->
+    
+        <p>Feel free to customize your quiz by adding more questions and changing the content. Make it fun and challenging!</p>
+    </div>
+
+    <div class="lesson-content" id="lesson-14-content">
+        <h2>Lesson 14: Introduction to Errors</h2>
+    
+        <h3>Understanding Errors in Python</h3>
+        <p>Errors are a natural part of programming. When you write code, you may encounter different types of errors. In this lesson, we'll explore two common types of errors: syntax errors and runtime errors.</p>
+    
+        <h3>Syntax Errors</h3>
+        <p>Syntax errors are errors that occur when you don't follow the correct syntax or rules of Python. These errors are typically detected by the Python interpreter before your program runs. They prevent your code from even starting.</p>
+    
+        <p>Example of a syntax error:</p>
+    
+        <pre><code>
+        print("Hello, World")
+        x = 10
+        for i in range(5)
+            print(i)
+        </code></pre>
+    
+        <p>In the code above, there are two syntax errors. The first one is the missing colon at the end of the "for" statement, and the second one is the missing indentation for the "print" statement inside the loop. These errors need to be fixed before the program can run.</p>
+    
+        <h3>Runtime Errors</h3>
+        <p>Runtime errors, also known as exceptions, occur when your code is syntactically correct, but something goes wrong while the program is running. These errors can include division by zero, trying to access an element that doesn't exist in a list, or using a variable that hasn't been defined.</p>
+    
+        <p>Example of a runtime error:</p>
+    
+        <pre><code>
+        num1 = 10
+        num2 = 0
+        result = num1 / num2
+        </code></pre>
+    
+        <p>In the code above, a division by zero occurs, which is a runtime error. This error is detected while the program is running, and it causes the program to terminate with an error message.</p>
+    
+        <h3>Handling Errors</h3>
+        <p>Python provides ways to handle errors gracefully using try and except blocks. These blocks allow you to catch and handle exceptions without causing your program to crash.</p>
+    
+        <p>Example of error handling:</p>
+    
+        <pre><code>
+        try:
+            num1 = 10
+            num2 = 0
+            result = num1 / num2
+        except ZeroDivisionError:
+            print("Error: Division by zero is not allowed.")
+        </code></pre>
+    
+        <p>In this example, we use a try-except block to catch the ZeroDivisionError that occurs when dividing by zero. Instead of crashing, the program displays an error message and continues running.</p>
+    
+        <h3>Activity</h3>
+        <p>Experiment with syntax errors and runtime errors by intentionally introducing errors into your code and observing how Python responds. Practice using try and except blocks to handle runtime errors gracefully.</p>
+    </div>
+
+    <div class="lesson-content" id="lesson-15-content">
+        <h2>Lesson 15: Debugging Techniques</h2>
+    
+        <h3>Debugging: Finding and Fixing Errors</h3>
+        <p>Debugging is the process of finding and fixing errors in your code. It's an essential skill for any programmer because, in the real world, code almost always contains bugs. In this lesson, we'll explore some strategies for debugging and practice fixing common programming errors.</p>
+    
+        <h3>Common Types of Errors</h3>
+        <p>Before we dive into debugging techniques, let's review some common types of errors:</p>
+        <ul>
+            <li>Syntax Errors: These errors occur due to violations of Python's syntax rules. They are detected by the interpreter before the program runs.</li>
+            <li>Runtime Errors: Also known as exceptions, these errors occur during program execution when something unexpected happens.</li>
+            <li>Logical Errors: These errors do not generate error messages, but they cause the program to produce incorrect results.</li>
+        </ul>
+    
+        <h3>Debugging Strategies</h3>
+        <p>Here are some debugging strategies to help you identify and fix errors:</p>
+        <ol>
+            <li>Read Error Messages: When an error occurs, Python often provides an error message with useful information. Pay attention to these messages as they can point you to the problem.</li>
+            <li>Review Your Code: Carefully review your code, line by line, to spot any obvious mistakes or typos.</li>
+            <li>Use Print Statements: Insert print statements at different points in your code to display variable values and control flow. This can help you understand what's happening.</li>
+            <li>Comment Out Code: Temporarily comment out sections of your code to isolate the problem area. This can help you narrow down the source of the error.</li>
+            <li>Google and Documentation: Don't hesitate to search online for solutions or check Python's official documentation for guidance.</li>
+            <li>Ask for Help: If you're stuck and can't find a solution, ask for help from a peer, teacher, or online programming community.</li>
+        </ol>
+    
+        <h3>Debugging Exercise</h3>
+        <p>Let's practice debugging with a simple exercise. Below is a Python program with a deliberate error. Your task is to find and fix the error to make the program work correctly.</p>
+    
+        <pre><code>
+        def greet(name):
+            print("Hello, " + name + "!")
+        
+        name = "John"
+        greet(name)
+        print("Program finished.")
+        </code></pre>
+    
+        <p>Identify and correct the error in the code. Once you've fixed it, the program should greet Alice and print "Program finished." If you encounter difficulties, try using the debugging strategies mentioned earlier.</p>
+    
+        <p>Debugging is a skill that improves with practice, so don't be discouraged if you face challenges. Keep experimenting and learning!</p>
+    </div>
+
+    <div class="lesson-content" id="lesson-16-content">
+        <h2>Lesson 16: Strings in Python</h2>
+    
+        <h3>What Are Strings?</h3>
+        <p>In Python, a string is a sequence of characters enclosed in either single (' ') or double (" ") quotes. Strings are used to represent text and are an essential part of programming because they allow you to work with words, sentences, and more.</p>
+    
+        <h3>String Manipulation</h3>
+        <p>Strings can be manipulated in various ways. Here are some common string operations:</p>
+    
+        <h4>Concatenation</h4>
+        <p>Concatenation is the process of combining two or more strings to create a new string. You can concatenate strings using the "+" operator:</p>
+        <pre><code>
+        first_name = "John"
+        last_name = "Doe"
+        full_name = first_name + " " + last_name
+        print(full_name)
+        </code></pre>
+    
+        <h4>Slicing</h4>
+        <p>Slicing allows you to extract a portion of a string. You specify a starting and ending index, and Python gives you the characters within that range:</p>
+        <pre><code>
+        greeting = "Hello, World"
+        print(greeting[0:5])  # Output: "Hello"
+        </code></pre>
+    
+        <h4>Length</h4>
+        <p>You can find the length of a string (the number of characters it contains) using the len() function:</p>
+        <pre><code>
+        text = "Python is amazing"
+        length = len(text)
+        print("The length of the string is:", length)
+        </code></pre>
+    
+        <h3>Activity</h3>
+        <p>Practice working with strings by performing the following tasks:</p>
+        <ol>
+            <li>Create two string variables and concatenate them to form a full name. Print the result.</li>
+            <li>Take a sentence and use slicing to extract and print the first word.</li>
+            <li>Find the length of a string containing your favorite quote and print the result.</li>
+        </ol>
+    
+        <p>Strings are incredibly versatile in Python, and you'll use them extensively in your programs. Understanding string manipulation is a valuable skill for any programmer!</p>
+    </div>
+
+    <div class="lesson-content" id="lesson-17-content">
+        <h2>Lesson 17: String Methods</h2>
+    
+        <h3>String Methods in Python</h3>
+        <p>Python provides several built-in methods that allow you to manipulate and transform strings. In this lesson, we'll explore some commonly used string methods:</p>
+    
+        <h4><code>upper()</code></h4>
+        <p>The <code>upper()</code> method converts all characters in a string to uppercase:</p>
+        <pre><code>
+        text = "python programming"
+        print(text.upper())  # Output: "PYTHON PROGRAMMING"
+        </code></pre>
+    
+        <h4><code>lower()</code></h4>
+        <p>The <code>lower()</code> method converts all characters in a string to lowercase:</p>
+        <pre><code>
+        text = "Python Programming"
+        print(text.lower())  # Output: "python programming"
+        </code></pre>
+    
+        <h4><code>split()</code></h4>
+        <p>The <code>split()</code> method divides a string into a list of substrings based on a specified delimiter. By default, it splits the string at whitespace characters:</p>
+        <pre><code>
+        sentence = "Python is fun"
+        words = sentence.split()
+        print(words)  # Output: ['Python', 'is', 'fun']
+        </code></pre>
+    
+        <h3>Activity</h3>
+        <p>Practice using string methods with the following exercises:</p>
+        <ol>
+            <li>Create a string variable containing your favorite quote. Use the <code>upper()</code> method to print the quote in all uppercase.</li>
+            <li>Take a sentence and use the <code>lower()</code> method to print it in all lowercase.</li>
+            <li>Create a string with a sentence and use the <code>split()</code> method to print the individual words as a list.</li>
+        </ol>
+    
+        <p>String methods are valuable tools for working with text data in Python. They make it easier to transform and manipulate strings to suit your needs.</p>
+    </div>
+
+    <div class="lesson-content" id="lesson-18-content">
+        <h2>Lesson 18: Working with Files</h2>
+    
+        <h3>Reading and Writing to Files</h3>
+        <p>In Python, you can read and write data to files, which is essential for working with data that needs to be stored or retrieved. In this lesson, we'll cover basic file operations:</p>
+    
+        <h4>Opening Files</h4>
+        <p>Before you can read from or write to a file, you need to open it using the <code>open()</code> function. The function takes two arguments: the filename and the mode.</p>
+        <pre><code>
+        # Open a file for writing (creates the file if it doesn't exist)
+        file = open("example.txt", "w")
+        </code></pre>
+    
+        <h4>Writing to Files</h4>
+        <p>Once a file is open for writing, you can use the <code>write()</code> method to add content to the file:</p>
+        <pre><code>
+        file.write("Hello, Python!")
+        </code></pre>
+    
+        <h4>Closing Files</h4>
+        <p>After writing to a file, it's essential to close it using the <code>close()</code> method to ensure the changes are saved:</p>
+        <pre><code>
+        file.close()
+        </code></pre>
+    
+        <h3>Activity</h3>
+        <p>Practice reading and writing to files with the following exercises:</p>
+        <ol>
+            <li>Create a Python program that writes your favorite quote to a file named "quotes.txt."</li>
+            <li>Read the content of "quotes.txt" and print it to the console.</li>
+            <li>Modify the program to append a new quote to the existing file.</li>
+            <li>Read the entire file again and print its updated content.</li>
+        </ol>
+    
+        <p>Working with files is an essential skill for managing data in Python. Whether you're storing text, numbers, or any other data, files are a powerful way to persist information.</p>
+    </div>
+
+<div class="lesson-content" id="lesson-19-content">
+    <h2>Lesson 19: Mini Project</h2>
+
+    <h3>Writing an Interactive Story</h3>
+    <p>In this mini-project, you'll create an interactive story where the user makes choices that affect the outcome. This project will help you apply your Python skills to build a fun and engaging experience.</p>
+
+    <h4>Project Requirements</h4>
+    <p>Your interactive story should meet the following requirements:</p>
+    <ul>
+        <li>Include a storyline with multiple decision points.</li>
+        <li>At each decision point, the user should have options to choose from.</li>
+        <li>The choices made by the user should impact the direction of the story.</li>
+        <li>Provide feedback to the user based on their choices.</li>
+    </ul>
+
+    <h3>Getting Started</h3>
+    <p>Here are the steps to get started with your interactive story project:</p>
+    <ol>
+        <li>Plan your storyline: Decide on the theme, setting, and characters for your story. Outline the key decision points and possible outcomes.</li>
+        <li>Write the Python code: Use Python to implement your story. You can use <code>input()</code> to take user choices and <code>print()</code> to provide feedback.</li>
+        <li>Test your story: Play through your story multiple times to ensure that the choices lead to different outcomes and that the story is engaging.</li>
+        <li>Share your story: Share your interactive story with friends or family and let them experience the adventure you've created.</li>
+    </ol>
+
+    <h4>Example Storyline</h4>
+    <p>Here's a simple example of a storyline to get you started:</p>
+    <p>Once upon a time, you find yourself in a magical forest. You come across a fork in the road with two paths. Do you want to go left or right?</p>
+    <ul>
+        <li>If you choose the left path, you encounter a friendly forest creature who offers to guide you deeper into the forest.</li>
+        <li>If you choose the right path, you stumble upon a hidden treasure chest but trigger a trap!</li>
+    </ul>
+
+    <p>At each decision point, you can provide options for the user to choose from and create different branches of the story based on their choices.</p>
+
+    <h3>Have Fun!</h3>
+    <p>This mini project is an excellent way to showcase your creativity and programming skills. Have fun crafting your interactive story, and remember that the possibilities are endless. Feel free to add characters, twists, and surprises to make your story truly unique.</p>
+
+    <p>Once you've completed your interactive story, share it with others and enjoy the adventure you've created!</p>
+</div>
+
+<div class="lesson-content" id="lesson-20-content">
+    <h2>Lesson 20: Basic Graphics in Python</h2>
+
+    <h3>Introduction to Graphics</h3>
+    <p>In this lesson, we'll explore the exciting world of graphics and drawing using Python. You'll get to unleash your creativity and create art or simple animations right in your Python programs!</p>
+
+    <h4>Python Turtle Graphics</h4>
+    <p>To dive into graphics, we'll be using a library called Python Turtle Graphics. Turtle Graphics is a fun and beginner-friendly way to draw shapes, patterns, and more in Python.</p>
+
+    <h3>Getting Started with Turtle Graphics</h3>
+    <p>Let's get started with Turtle Graphics:</p>
+    <ol>
+        <li>Import the Turtle Graphics library:</li>
+        <pre><code>
+        import turtle
+        </code></pre>
+        <li>Create a Turtle object:</li>
+        <pre><code>
+        t = turtle.Turtle()
+        </code></pre>
+        <li>Use your Turtle object to draw shapes, lines, and more!</li>
+        <pre><code>
+        t.forward(100) # Move forward by 100 units
+        t.left(90)     # Turn left by 90 degrees
+        t.forward(100)
+        </code></pre>
+    </ol>
+
+    <h3>Your First Drawing</h3>
+    <p>Let's create your first drawing using Turtle Graphics. Try drawing a square:</p>
+    <pre><code>
+    import turtle
+
+    t = turtle.Turtle()
+    for _ in range(4):
+        t.forward(100)
+        t.right(90)
+    </code></pre>
+
+    <h3>Creating Art and Animations</h3>
+    <p>With Turtle Graphics, you can create beautiful art and simple animations. Experiment with different commands to draw patterns, shapes, and more.</p>
+
+    <h2>Final Projects</h2>
+    <p>Congratulations on reaching the end of the Python path! Now, it's time to showcase your skills and creativity by working on your final Python projects. Your final projects can be small Python applications, games, or anything you'd like to create.</p>
+
+    <h3>List of Project Ideas</h3>
+    <ul>
+        <li>Create a simple text-based game like a quiz, tic-tac-toe, or hangman.</li>
+        <li>Build a calculator with a graphical user interface (GUI).</li>
+        <li>Develop a drawing application where users can draw using the mouse.</li>
+        <li>Design a digital pet that users can interact with and take care of.</li>
+        <li>Build a basic chatbot that can hold conversations with users.</li>
+        <li>Create a program that generates random art or patterns.</li>
+    </ul>
+
+    <h3>End of Python Path Celebration and Presentation</h3>
+    <p>As you wrap up your final projects, you'll have the opportunity to present your work and celebrate your achievements. Share your projects with your peers and mentors to showcase your growth in Python programming.</p>
+
+    <p>Remember that programming is a journey, and you've made significant progress. Enjoy the final projects, and keep exploring the exciting world of coding!</p>
+</div>
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <!-- Your other footer content here -->
+
+            <div class="copyright">
+                &copy; 2023 Wings To Tech. All rights reserved.
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="JS/JavaScriptCurriculum.js"></script>
 </body>
 </html>

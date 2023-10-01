@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
             window.location.href = "javacript_curriculum.html";
         } else if (selectedTrack == "Python") {
             window.location.href = "python_curriculum.html";
+        } else if (selectedTrack == "AI") {
+            window.location.href = "AI_curriculum.html";
         }
     });
 });
